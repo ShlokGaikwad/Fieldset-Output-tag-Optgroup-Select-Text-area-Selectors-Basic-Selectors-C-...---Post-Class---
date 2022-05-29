@@ -51,8 +51,9 @@ body{
 .designation{
     font-size: 1rem;
     text-align: center;
+    text-transform: uppercase;
     color:#94d9ea;
-    padding: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .description{
@@ -60,4 +61,57 @@ body{
     text-align: center;
     color: #f5f5f5;
     padding: 1rem;
+}
+
+.social-media ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social-media .fa{
+    font-size: 30px;
+}
+
+
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem 0.5rem;
+    text-transform: uppercase;
+}
+
+.skill-name{
+    font-size:0.65rem;
+    font-weight:0.65rem;
+    text-align:left;
+    padding-bottom:0.5rem;
+}
+
+.progress-bar{
+    border:1px solid white;
+    height:4px;
+}
+
+.right-main-content{
+    padding: 2rem 3rem;
+}
+
+.right-title{
+    text-transform:uppercase;
+    fomt-size:1.2rem;
+    font-weight:700;
+    padding: 0.5rem;
+    letter-spacing:1px;
+}
+
+.para{
+    padding:0.5rem;
+}
+
+@media screen and (max-width:673px){
+    .main-content{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
