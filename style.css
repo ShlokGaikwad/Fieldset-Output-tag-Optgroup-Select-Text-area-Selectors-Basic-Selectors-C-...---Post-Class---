@@ -27,7 +27,7 @@ body{
 }
 
 .right-section{
-    grid-area: 1/1/3/2;
+    /* grid-area: 1/1/3/2; */
     grid-column: span 1 / span 2;
     background-color: #f7f7f7;
 }
